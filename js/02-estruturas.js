@@ -25,8 +25,26 @@ let carro = {
     marca: "Fiat",
     modelo: "Uno com escada",
     portas: 2,
-    cor: "branco"
+    cor: "branco",
+    opcionais: ["Ar condicionado", "Vidros elétricos", "Alarme"]
 };
 
 console.log(carro);
 console.log(carro.modelo);
+
+console.log(`Carros da ${carro.marca} tem a cor ${carro.cor}`);
+console.log(`Este carro tem ${carro.opcionais[0]}`);
+
+//Exercícios
+// Crie um novo objeto contendo informações de algo que você gosta (filme, livro, comida, jogo etc)
+
+let dadosPessoais = {
+    filme: "Sempre ao seu lado",
+    livro: "Bíblia",
+    comida: "Macarrão",
+    jogo: "Roblox"
+}
+
+// 2)Mostra uma mensagem com pelo menos 2 propriedades do objeto que você criou
+
+console.log(`Meu filme favorito é ${dadosPessoais.filme} e minha comida favorita é ${dadosPessoais.comida}`);
