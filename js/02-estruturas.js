@@ -6,4 +6,7 @@
 // Objetos
 // Lista de dados não indexados e formados por propriedades e valores.
 // Arrays
-let cursos = [""]
+let cursos = ["Node.js", "React", "SQL", "UX/UI Design"]
+
+console.log(cursos); // Saída direta/estruturada
+console.log(cursos[2]); // SQL 

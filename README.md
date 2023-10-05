@@ -11,3 +11,11 @@
    - Funcionalidades de navegação
    - Validações mais avançadas de formulário
  - JS pode ser usado até mesmo para criar aplicativos e games.
+
+- String (textos em geral)
+- Number (Números inteiros, decimais, octais etc)
+- Array (vetor/matriz - lista de dados indexados)
+- Object (dados não indexados com propriedades e valores)
+- Boolean (Booleano, valores "true/verdaderiro" ou "false/falso")
+
+Dica: se quiser verificar o tipo de dados de uma variável/constante, use o comando "typeof nomeDaVariavel".
