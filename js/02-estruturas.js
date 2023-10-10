@@ -99,3 +99,5 @@ let tecnologias = [
 console.log(tecnologias[1][3]); // Node
 console.log(tecnologias[2][1]); // Photoshop
 console.log(tecnologias[0][0]); // HTML5
+
+console.table(cursos)
