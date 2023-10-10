@@ -1,3 +1,7 @@
+// Habilitando o modo strict do JS
+"use scrict";
+
+
 let nota1 = 2
 let nota2 = 2
 
