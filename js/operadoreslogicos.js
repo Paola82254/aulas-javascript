@@ -18,13 +18,13 @@ let resultado
     resultado = "Reprovado";
 } */
 
-if(mediaFinal >= mediaMinima && faltas <= limiteDeFaltas) {
+/* if(mediaFinal >= mediaMinima && faltas <= limiteDeFaltas) {
     resultado = "Aprovado"
 } else if (faltas > limiteDeFaltas){
     resultado = "   Reprovado por faltas";
 } else {
     resultado = "Reprovado"
-}
+} */
 
 console.log(`O aluno ${aluno} está ${resultado}`);
 console.log(`Média do aluno: ${mediaFinal}`);
