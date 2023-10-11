@@ -34,10 +34,14 @@ do {
 } */
 
 /* Loop com Array */
-let clientes = ["Ozzy", "Dio", "Gillan", "Martin", "Hughes"];
+let clientes = ["Dio", "Gillan", "Martin", "Hughes", "Paola", "Giovanna"];
 
 /* console.log(clientes[2]); */
 
-for( let i = 0; i < 5; i++){
+
+//"Cache/Memória" da quantidade de elementos do Array
+let quantidade = clientes.length
+
+for( let i = 0; i < quantidade ; i++){
     console.log(`Cliente: ${clientes[i]}`);
 }
