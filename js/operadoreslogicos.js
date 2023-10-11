@@ -12,7 +12,7 @@ let resultado
 
 //Operador Lógico E (AND)
 
-if(mediaFinal >= mediaMinima && < limiteDeFaltas){
+if(mediaFinal >= mediaMinima && faltas <= limiteDeFaltas){
     resultado = "Aprovado;"
 } else {
     resultado = "Reprovado";
