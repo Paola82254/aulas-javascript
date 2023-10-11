@@ -1,7 +1,7 @@
 "use strict";
 
 // Requisitos da escola para aprovação
-const mediaMinima = 7;
+const mediaMinima = 4;
 const limiteDeFaltas = 10;
 
 // Resultados do aluno fictício
@@ -26,6 +26,27 @@ let resultado
     resultado = "Reprovado"
 } */
 
+if( faltas > limiteDeFaltas){
+    resultado = "Reprovado por faltas";
+    } else if (mediaFinal>=mediaMinima){
+        resultado = "Aprovado";
+    } else {
+        resultado = "Reprovado"
+    }
+
+
+
 console.log(`O aluno ${aluno} está ${resultado}`);
 console.log(`Média do aluno: ${mediaFinal}`);
 console.log(`Faltas do Aluno: ${faltas}`);
+
+console.log("---------");
+
+// Operador Lógico || (OR - OU)
+let diaDaSemana = "domingo";
+
+if (diaDaSemana == "sábado" || diaDaSemana == "domingo") {
+    console.log("Final de Semana :)");
+} else {
+    console.log("Vá trabalhar...");
+}
