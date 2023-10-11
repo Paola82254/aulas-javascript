@@ -18,9 +18,17 @@ while( contador<= 5 ){
 } */
 
 //EXEMPLO DO/WHILE
-let contador = 10;
+/* let i = 1;
 
 do {
-    console.log(`Contador vale: ${contador}`);
-    contador++;
-} while( contador <= 3 )
+    console.log(`i vale: ${i}`);
+    ci++;
+} while( i <= 3 ) */
+
+// OBS: Normalmente variáveis de controle de repetição são chamadas de i, j ou k
+
+//EXEMPLO FOR (PARA)
+
+for(let i = 1; i<=10; i++){
+    console.log(`i vale ${i}`);
+}
