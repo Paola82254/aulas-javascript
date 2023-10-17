@@ -53,6 +53,6 @@ console.log( somar(30,47.8) );
 let preco = 1000;
 let desconto = preco * 0.10; //;10%
 let precofinal = preco - desconto
-console.log(`Preço: ${preco}`);
-console.log(`Desconto: ${desconto}`);
-console.log(`Preço final ${precofinal}`);
+console.log(`Preço: ${preco.toLocaleString()}`);
+console.log(`Desconto: ${desconto.toLocaleString()}`);
+console.log(`Preço final ${precofinal.toLocaleString()}`);
