@@ -19,7 +19,15 @@ let valor= 1000;
 let dolar = 5.3;
 
 function converteValor(valor){
+    let opcoes = {
+        style: "currency",
+        currency: "BRL"
     return valor * dolar;
 }
 
-console.log(converteValor(valor));
+    console.log(converteValor(valor))
+
+
+    }
+return valor.toLocaleString("pt-br",opcoes)
+}
