@@ -57,3 +57,23 @@ for (let banda of bandas){
 
 
 //for/in -> para objetos
+let livro = {
+    titulo: "HTML5",
+    autor: "Maujor",
+    site:"http://maujor.com",
+    ano: 2016,
+    editora: "Novatec",
+    edicao: 3
+};
+
+//para DADOS dentro/ em LIVRO
+
+for(let dados in livro) {
+    //Acessar apenas a propriedade
+    //comsole.log(dados);
+
+    //Acessar o valor de cada propriedade
+    //console.log(livro[propriedade]);
+
+    console.log(`${propriedade} -> ${livro[propriedade]}`);
+}
