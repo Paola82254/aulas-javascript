@@ -5,7 +5,7 @@
     - Aluno: Joãozinho
     - Aluno: Mariazinha
     - Aluno: Giuseppezinho */
-   let i = alunos
+
     let alunos = [
         { id: 1,
           nome: "Joãozinho",
