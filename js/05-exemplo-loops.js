@@ -45,3 +45,15 @@ let quantidade = clientes.length
 for( let i = 0; i < quantidade ; i++){
     console.log(`Cliente: ${clientes[i]}`);
 }
+
+
+console.log("----------");
+//for/of ->para arrays
+let bandas = ["Slayer","Dream Theater","Nightwish"];
+
+for (let banda of bandas){
+    console.log(banda);
+}
+
+
+//for/in -> para objetos
