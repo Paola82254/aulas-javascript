@@ -52,7 +52,19 @@ console.log( somar(30,47.8) );
 
 let preco = 1000;
 let desconto = preco * 0.10; //;10%
-let precofinal = preco - desconto
+let precofinal = preco - desconto;
+
+
+
+function formatarPreco(valor){
+    let opcoes = {
+        style: "currency",
+        currency: "BRL"
+    }
+return valor.toLocaleString("pt-br",opcoes)
+}
+
+//PARA REAL
 console.log(`Preço: ${preco.toLocaleString("pt-br",{
     style: "currency",
     currency: "BRL"
@@ -62,7 +74,7 @@ console.log(`Preço: ${preco.toLocaleString("pt-br",{
 
 console.log(`Desconto: ${desconto.toLocaleString("pt-br",{
     style: "currency",
-    currency: "USD"
+    currency: "BRL"
 })}`
 );
 console.log(`Preço final ${precofinal.toLocaleString("pt-br",{
@@ -70,3 +82,23 @@ console.log(`Preço final ${precofinal.toLocaleString("pt-br",{
     currency: "BRL"
 })}`
 );
+
+//PARA DÓLAR
+
+/* console.log(`Preço: ${preco.toLocaleString("en",{
+    style: "currency",
+    currency: "USD"
+})}`
+
+);
+
+console.log(`Desconto: ${desconto.toLocaleString("en",{
+    style: "currency",
+    currency: "USD"
+})}`
+);
+console.log(`Preço final ${precofinal.toLocaleString("en",{
+    style: "currency",
+    currency: "USD"
+})}`
+); */
