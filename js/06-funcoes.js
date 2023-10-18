@@ -102,3 +102,37 @@ console.log(`Preço final ${precofinal.toLocaleString("en",{
     currency: "USD"
 })}`
 ); */
+
+
+console.log(---------);
+
+/* Sobre Arrow Function
+Sintaxe moderna para funções no JS,
+bastante usada por bibliotecas, frameworks 
+(React, Angular, Vue e etc).
+
+A sintaxe geral é:
+
+const algumNome = () => {};
+
+No entanto, esta sintaxe pode ser um pouco mais concisa
+*/
+// versão 1
+/* function dobra (valor){
+    return valor * 2;
+
+} */
+
+//versão 2 (Arrow Function)
+
+/* const dobra = () => {
+    return valor * 2;
+}; */
+
+//Versão 3 (Arrow Function com retorno implícito)
+const dobra = valor => valor * 2;
+
+//Chamadas
+console.log(dobra(10));
+console.log(dobra(1325));
+console.log(dobra(55.47));
