@@ -52,9 +52,42 @@ const pagina = document.querySelector("body");
 const exemplo01 = document.querySelector("#exemplo01");
 const mensagem = document.querySelector("#mensagem")
 
+const reprodutorAudio = document.querySelector("#reprodutor-audio");
+const imagemMeme = document.querySelector ("#imagem-meme")
+
+
 //ouvinte de evento
 exemplo01.addEventListener("click", function(){
     pagina.style.fontFamily = "Verdana";
     mensagem.textContent = "Fonte alterada!";
     mensagem.style.backgroundColor = "yellow";
+//Executamos áudio com o play
+    reprodutorAudio.play();
+// Removemos o atributo hidden (portanto, a imagem aparecerá)
+    imagemMeme.removeAttribute("hidden");
 })
+
+//Exemplo modo Noturno
+
+const botao = document.querySelector("#noturno");
+botao.addEventListener("click", gerenciarModoNoturno);
+
+function gerenciarModoNoturno(){
+    pagina.classList.toggle("modo-noturno");
+
+  // Se a página contém a classe modo-noturno
+  if (pagina.className == "modo-noturno"){
+    //mude o texto do botão para "Desativar"
+        botao.textContent =  "Desativar";}
+    else{  botao.textContent =  "Ativar";
+    }
+// ou if (pagina.classList.contains("modo-noturno")) */
+
+}
+
+    /* Exercício */
+
+    /* Se a página estiver com a classe chamada "modo-noturno", então mude o texto do botão para "Desativar". Caso contrário, faça o botão exibir o texto "Ativar" */
+
+
+
